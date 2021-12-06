@@ -5,12 +5,7 @@ const Sidebar = () => {
   const item = [
     {
       initialExpanded: true,
-      items: [
-        {
-          href: "#nested1",
-          label: "Nested1",
-        },
-      ],
+
       label: "Home",
     },
     {
@@ -21,20 +16,7 @@ const Sidebar = () => {
       href: "#3",
       label: "Contact",
     },
-    {
-      items: [
-        {
-          active: true,
-          href: "#5",
-          label: "Five",
-        },
-        {
-          href: "#6",
-          label: "Six",
-        },
-      ],
-      label: "Projects",
-    },
+
     {
       href: "#7",
       label: "Seven",
